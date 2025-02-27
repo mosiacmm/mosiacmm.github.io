@@ -1,0 +1,35 @@
+<p>This tutorial will guide you how to write a post in the <em>Chirpy</em> template, and it’s worth reading even if you’ve used Jekyll before, as many features require specific variables to be set.</p>
+
+<h2 id="naming-and-path">Naming and Path</h2>
+
+<p>Create a new file named <code class="language-plaintext filepath highlighter-rouge">YYYY-MM-DD-TITLE.EXTENSION</code> and put it in the <code class="language-plaintext filepath highlighter-rouge">_posts</code> of the root directory. Please note that the <code class="language-plaintext filepath highlighter-rouge">EXTENSION</code> must be one of <code class="language-plaintext filepath highlighter-rouge">md</code> and <code class="language-plaintext filepath highlighter-rouge">markdown</code>. If you want to save time of creating files, please consider using the plugin <a href="https://github.com/jekyll/jekyll-compose"><code class="language-plaintext highlighter-rouge">Jekyll-Compose</code></a> to accomplish this.</p>
+
+<h2 id="front-matter">Front Matter</h2>
+
+<p>Basically, you need to fill the <a href="https://jekyllrb.com/docs/front-matter/">Front Matter</a> as below at the top of the post:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">TITLE</span>
+<span class="na">date</span><span class="pi">:</span> <span class="s">YYYY-MM-DD HH:MM:SS +/-TTTT</span>
+<span class="na">categories</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">TOP_CATEGORIE</span><span class="pi">,</span> <span class="nv">SUB_CATEGORIE</span><span class="pi">]</span>
+<span class="na">tags</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">TAG</span><span class="pi">]</span>     <span class="c1"># TAG names should always be lowercase</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<blockquote class="prompt-tip">
+  <p>The posts’ <em>layout</em> has been set to <code class="language-plaintext highlighter-rouge">post</code> by default, so there is no need to add the variable <em>layout</em> in the Front Matter block.</p>
+</blockquote>
+
+<h3 id="timezone-of-date">Timezone of Date</h3>
+
+<p>To accurately record the release date of a post, you should not only set up the <code class="language-plaintext highlighter-rouge">timezone</code> of <code class="language-plaintext filepath highlighter-rouge">_config.yml</code> but also provide the post’s timezone in variable <code class="language-plaintext highlighter-rouge">date</code> of its Front Matter block. Format: <code class="language-plaintext highlighter-rouge">+/-TTTT</code>, e.g. <code class="language-plaintext highlighter-rouge">+0800</code>.</p>
+
+<h3 id="categories-and-tags">Categories and Tags</h3>
+
+<p>The <code class="language-plaintext highlighter-rouge">categories</code> of each post are designed to contain up to two elements, and the number of elements in <code class="language-plaintext highlighter-rouge">tags</code> can be zero to infinity. For instance:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">categories</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">Animal</span><span class="pi">,</span> <span class="nv">Insect</span><span class="pi">]</span>
+<span class="na">tags</span><span class="pi">:</span> <span class="pi">[</span><span class="nv">bee</span><span class="pi">]</span>
+<span class="nn">---</span>
+</code></pre></div></div>
