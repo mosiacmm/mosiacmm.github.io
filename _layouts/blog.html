@@ -1,27 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title> Charity | Teamplate</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
-
-    <!-- CSS here -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/slicknav.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/hamburgers.min.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/css/themify-icons.css">
-    <link rel="stylesheet" href="assets/css/themify-icons.css">
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
+    {% include blog/head_import.html %}
 </head>
 <body>
     <!--? Preloader Start -->
@@ -54,126 +34,65 @@
                 <div class="row">
                     <div class="col-lg-8 mb-5 mb-lg-0">
                         <div class="blog_left_sidebar">
+                            {% for post in paginator.posts %}
                             <article class="blog_item">
                                 <div class="blog_item_img">
-                                    <img class="card-img rounded-0" src="assets/img/blog/single_blog_1.png" alt="">
+                                    {% if post.image %}
+                                    <img class="card-img rounded-0" src="{{ post.image.path | relative_url }}" alt="{{ post.image.alt | default:post.title }}">
+                                    {% endif %}
                                     <a href="#" class="blog_item_date">
-                                        <h3>15</h3>
-                                        <p>Jan</p>
+                                        <h3>{{ post.date | date: "%-d" }}</h3>
+                                        <p>{{ post.date | date: "%b" }}</p>
                                     </a>
                                 </div>
                                 <div class="blog_details">
-                                    <a class="d-inline-block" href="blog_details.html">
-                                        <h2 class="blog-head" style="color: #2d2d2d;">Google inks pact for new 35-storey office</h2>
+                                    <a class="d-inline-block" href="{{ post.url | relative_url }}">
+                                        <h2 class="blog-head" style="color: #2d2d2d;">{{ post.title }}</h2>
                                     </a>
-                                    <p>That dominion stars lights dominion divide years for fourth have don't stars is that
-                                        he earth it first without heaven in place seed it second morning saying.</p>
+                                    <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
                                     <ul class="blog-info-link">
-                                        <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
-                                        <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
+                                        {% if post.categories %}
+                                        <li><a href="#"><i class="fa fa-user"></i> {{ post.categories | join: ", " }}</a></li>
+                                        {% endif %}
+                                        {% if post.comments %}
+                                        <li><a href="#"><i class="fa fa-comments"></i> {{ post.comments }} Comments</a></li>
+                                        {% endif %}
                                     </ul>
                                 </div>
                             </article>
-                            <article class="blog_item">
-                                <div class="blog_item_img">
-                                    <img class="card-img rounded-0" src="assets/img/blog/single_blog_2.png" alt="">
-                                    <a href="#" class="blog_item_date">
-                                        <h3>15</h3>
-                                        <p>Jan</p>
-                                    </a>
-                                </div>
-                                <div class="blog_details">
-                                    <a class="d-inline-block" href="blog_details.html">
-                                        <h2 class="blog-head" style="color: #2d2d2d;">Google inks pact for new 35-storey office</h2>
-                                    </a>
-                                    <p>That dominion stars lights dominion divide years for fourth have don't stars is that
-                                        he earth it first without heaven in place seed it second morning saying.</p>
-                                    <ul class="blog-info-link">
-                                        <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
-                                        <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
-                                    </ul>
-                                </div>
-                            </article>
-                            <article class="blog_item">
-                                <div class="blog_item_img">
-                                    <img class="card-img rounded-0" src="assets/img/blog/single_blog_3.png" alt="">
-                                    <a href="#" class="blog_item_date">
-                                        <h3>15</h3>
-                                        <p>Jan</p>
-                                    </a>
-                                </div>
-                                <div class="blog_details">
-                                    <a class="d-inline-block" href="blog_details.html">
-                                        <h2 class="blog-head" style="color: #2d2d2d;">Google inks pact for new 35-storey office</h2>
-                                    </a>
-                                    <p>That dominion stars lights dominion divide years for fourth have don't stars is that
-                                        he earth it first without heaven in place seed it second morning saying.</p>
-                                    <ul class="blog-info-link">
-                                        <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
-                                        <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
-                                    </ul>
-                                </div>
-                            </article>
-                            <article class="blog_item">
-                                <div class="blog_item_img">
-                                    <img class="card-img rounded-0" src="assets/img/blog/single_blog_4.png" alt="">
-                                    <a href="#" class="blog_item_date">
-                                        <h3>15</h3>
-                                        <p>Jan</p>
-                                    </a>
-                                </div>
-                                <div class="blog_details">
-                                    <a class="d-inline-block" href="blog_details.html">
-                                        <h2 class="blog-head" style="color: #2d2d2d;">Google inks pact for new 35-storey office</h2>
-                                    </a>
-                                    <p>That dominion stars lights dominion divide years for fourth have don't stars is that
-                                        he earth it first without heaven in place seed it second morning saying.</p>
-                                    <ul class="blog-info-link">
-                                        <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
-                                        <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
-                                    </ul>
-                                </div>
-                            </article>
-                            <article class="blog_item">
-                                <div class="blog_item_img">
-                                    <img class="card-img rounded-0" src="assets/img/blog/single_blog_5.png" alt="">
-                                    <a href="#" class="blog_item_date">
-                                        <h3>15</h3>
-                                        <p>Jan</p>
-                                    </a>
-                                </div>
-                                <div class="blog_details">
-                                    <a class="d-inline-block" href="blog_details.html">
-                                        <h2 class="blog-head" style="color: #2d2d2d;">Google inks pact for new 35-storey office</h2>
-                                    </a>
-                                    <p>That dominion stars lights dominion divide years for fourth have don't stars is that
-                                        he earth it first without heaven in place seed it second morning saying.</p>
-                                    <ul class="blog-info-link">
-                                        <li><a href="#"><i class="fa fa-user"></i> Travel, Lifestyle</a></li>
-                                        <li><a href="#"><i class="fa fa-comments"></i> 03 Comments</a></li>
-                                    </ul>
-                                </div>
-                            </article>
+                            {% endfor %}
+
+                            {% if paginator.total_pages > 1 %}
                             <nav class="blog-pagination justify-content-center d-flex">
                                 <ul class="pagination">
+                                    {% if paginator.previous_page %}
                                     <li class="page-item">
-                                        <a href="#" class="page-link" aria-label="Previous">
+                                        <a href="{{ paginator.previous_page_path | relative_url }}" class="page-link" aria-label="Previous">
                                             <i class="ti-angle-left"></i>
                                         </a>
                                     </li>
-                                    <li class="page-item">
-                                        <a href="#" class="page-link">1</a>
+                                    {% endif %}
+
+                                    {% for page in (1..paginator.total_pages) %}
+                                    <li class="page-item {% if page == paginator.page %}active{% endif %}">
+                                        {% if page == 1 %}
+                                        <a class="page-link" href="{{ '/blog/' | relative_url }}">{{ page }}</a>
+                                        {% else %}
+                                        <a class="page-link" href="{{ site.paginate_path | relative_url| replace: 'page:num','blog/:num.html' | replace: ':num', page }}">{{ page }}</a>
+                                        {% endif %}
                                     </li>
-                                    <li class="page-item active">
-                                        <a href="#" class="page-link">2</a>
-                                    </li>
+                                    {% endfor %}
+
+                                    {% if paginator.next_page %}
                                     <li class="page-item">
-                                        <a href="#" class="page-link" aria-label="Next">
+                                        <a href="{{ paginator.next_page_path | relative_url }}" class="page-link" aria-label="Next">
                                             <i class="ti-angle-right"></i>
                                         </a>
                                     </li>
+                                    {% endif %}
                                 </ul>
                             </nav>
+                            {% endif %}
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -238,7 +157,7 @@
                             <aside class="single_sidebar_widget popular_post_widget">
                                 <h3 class="widget_title" style="color: #2d2d2d;">Recent Post</h3>
                                 <div class="media post_item">
-                                    <img src="assets/img/post/post_1.png" alt="post">
+                                    <img src="/assets/img/post/post_1.png" alt="post">
                                     <div class="media-body">
                                         <a href="blog_details.html">
                                             <h3 style="color: #2d2d2d;">From life was you fish...</h3>
@@ -247,7 +166,7 @@
                                     </div>
                                 </div>
                                 <div class="media post_item">
-                                    <img src="assets/img/post/post_2.png" alt="post">
+                                    <img src="/assets/img/post/post_2.png" alt="post">
                                     <div class="media-body">
                                         <a href="blog_details.html">
                                             <h3 style="color: #2d2d2d;">The Amazing Hubble</h3>
@@ -256,7 +175,7 @@
                                     </div>
                                 </div>
                                 <div class="media post_item">
-                                    <img src="assets/img/post/post_3.png" alt="post">
+                                    <img src="/assets/img/post/post_3.png" alt="post">
                                     <div class="media-body">
                                         <a href="blog_details.html">
                                             <h3 style="color: #2d2d2d;">Astronomy Or Astrology</h3>
@@ -265,7 +184,7 @@
                                     </div>
                                 </div>
                                 <div class="media post_item">
-                                    <img src="assets/img/post/post_4.png" alt="post">
+                                    <img src="/assets/img/post/post_4.png" alt="post">
                                     <div class="media-body">
                                         <a href="blog_details.html">
                                             <h3 style="color: #2d2d2d;">Asteroids telescope</h3>
@@ -304,41 +223,41 @@
                                 </ul>
                             </aside>
 
-                            <aside class="single_sidebar_widget instagram_feeds">
+                            <!-- <aside class="single_sidebar_widget instagram_feeds">
                                 <h4 class="widget_title" style="color: #2d2d2d;">Instagram Feeds</h4>
                                 <ul class="instagram_row flex-wrap">
                                     <li>
                                         <a href="#">
-                                            <img class="img-fluid" src="assets/img/post/post_5.png" alt="">
+                                            <img class="img-fluid" src="/assets/img/post/post_5.png" alt="">
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img class="img-fluid" src="assets/img/post/post_6.png" alt="">
+                                            <img class="img-fluid" src="/assets/img/post/post_6.png" alt="">
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img class="img-fluid" src="assets/img/post/post_7.png" alt="">
+                                            <img class="img-fluid" src="/assets/img/post/post_7.png" alt="">
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img class="img-fluid" src="assets/img/post/post_8.png" alt="">
+                                            <img class="img-fluid" src="/assets/img/post/post_8.png" alt="">
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img class="img-fluid" src="assets/img/post/post_9.png" alt="">
+                                            <img class="img-fluid" src="/assets/img/post/post_9.png" alt="">
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <img class="img-fluid" src="assets/img/post/post_10.png" alt="">
+                                            <img class="img-fluid" src="/assets/img/post/post_10.png" alt="">
                                         </a>
                                     </li>
                                 </ul>
-                            </aside>
+                            </aside> -->
                             <aside class="single_sidebar_widget newsletter_widget">
                                 <h4 class="widget_title" style="color: #2d2d2d;">Newsletter</h4>
                                 <form action="#">
@@ -358,7 +277,7 @@
         <!-- Blog Area End -->
     </main>
     <footer>
-        <div class="footer-wrapper section-bg2" data-background="assets/img/gallery/footer_bg.png">
+        <div class="footer-wrapper section-bg2" data-background="/assets/img/gallery/footer_bg.png">
             <!-- Footer Top-->
             <div class="footer-area footer-padding">
                 <div class="container">
@@ -368,7 +287,7 @@
                             <div class="single-footer-caption mb-30">
                                 <div class="footer-tittle">
                                     <div class="footer-logo mb-20">
-                                        <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                                        <a href="index.html"><img src="/assets/img/logo/logo2_footer.png" alt=""></a>
                                     </div>
                                 </div>
                             </div>
@@ -420,7 +339,7 @@
                                             onblur="this.placeholder = ' Email Address '">
                                             <div class="form-icon">
                                                 <button type="submit" name="submit" id="newsletter-submit"
-                                                class="email_icon newsletter-submit button-contactForm"><img src="assets/img/gallery/form.png" alt=""></button>
+                                                class="email_icon newsletter-submit button-contactForm"><img src="/assets/img/gallery/form.png" alt=""></button>
                                             </div>
                                             <div class="mt-10 info"></div>
                                         </form>
@@ -464,44 +383,7 @@
     </div>
       <!-- JS here -->
 
-      <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
-      <!-- Jquery, Popper, Bootstrap -->
-      <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
-      <script src="./assets/js/popper.min.js"></script>
-      <script src="./assets/js/bootstrap.min.js"></script>
-      <!-- Jquery Mobile Menu -->
-      <script src="./assets/js/jquery.slicknav.min.js"></script>
-
-      <!-- Jquery Slick , Owl-Carousel Plugins -->
-      <script src="./assets/js/owl.carousel.min.js"></script>
-      <script src="./assets/js/slick.min.js"></script>
-      <!-- One Page, Animated-HeadLin -->
-      <script src="./assets/js/wow.min.js"></script>
-      <script src="./assets/js/animated.headline.js"></script>
-      <script src="./assets/js/jquery.magnific-popup.js"></script>
-
-      <!-- Date Picker -->
-      <script src="./assets/js/gijgo.min.js"></script>
-      <!-- Nice-select, sticky -->
-      <script src="./assets/js/jquery.nice-select.min.js"></script>
-      <script src="./assets/js/jquery.sticky.js"></script>
-      
-      <!-- counter , waypoint,Hover Direction -->
-      <script src="./assets/js/jquery.counterup.min.js"></script>
-      <script src="./assets/js/waypoints.min.js"></script>
-      <script src="./assets/js/jquery.countdown.min.js"></script>
-      <script src="./assets/js/hover-direction-snake.min.js"></script>
-
-      <!-- contact js -->
-      <script src="./assets/js/contact.js"></script>
-      <script src="./assets/js/jquery.form.js"></script>
-      <script src="./assets/js/jquery.validate.min.js"></script>
-      <script src="./assets/js/mail-script.js"></script>
-      <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
-      
-      <!-- Jquery Plugins, main Jquery -->	
-      <script src="./assets/js/plugins.js"></script>
-      <script src="./assets/js/main.js"></script>
+    {% include blog/script_import.html %}
      
     </body>
 </html>
