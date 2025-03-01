@@ -1,5 +1,12 @@
 source "https://rubygems.org"
-gem "jekyll-paginate-v2"
-gem "kramdown-parser-gfm", "~> 1.1"
+
+gem "jekyll", "~> 4.2"
+
+group :jekyll_plugins do
+  gem "jekyll-paginate-v2"
+  gem "kramdown-parser-gfm", "~> 1.1"
+  gem "webrick", "~> 1.9"
+end
+
+
 gem "jekyll-watch", "~> 2.2"
-gem "webrick", "~> 1.9"
