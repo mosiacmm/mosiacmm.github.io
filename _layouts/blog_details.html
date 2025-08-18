@@ -101,7 +101,7 @@
                </div>
                <div class="col-lg-4">
                   <div class="blog_right_sidebar">
-                     <aside class="single_sidebar_widget search_widget">
+                     <!-- <aside class="single_sidebar_widget search_widget">
                         <form action="#">
                            <div class="form-group">
                               <div class="input-group mb-3">
@@ -115,48 +115,13 @@
                            <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
                               type="submit">Search</button>
                         </form>
-                     </aside>
-                     <aside class="single_sidebar_widget post_category_widget">
-                        <h4 class="widget_title" style="color: #2d2d2d;">Category</h4>
-                        <ul class="list cat-list">
-                           {% assign categories = site.posts | map: "categories" | flatten | uniq %}
-                           {% for category in categories %}
-                           {% assign category_posts = site.posts | where_exp: "post", "post.categories contains category" %}
-                           <li>
-                              <a href="#" class="d-flex">
-                                 <p>{{ category }}</p>
-                                 <p>({{ category_posts.size }})</p>
-                              </a>
-                           </li>
-                           {% endfor %}
-                        </ul>
-                     </aside>
-                     <aside class="single_sidebar_widget popular_post_widget">
-                        <h3 class="widget_title" style="color: #2d2d2d;">Recent Post</h3>
-                        
-                        {% for post in site.posts reversed limit:4 %}
-                        <div class="media post_item">
-                           <img src="{{ post.image.path | url }}" alt="{{ post.title }}" width="80" height="80">
-                           <div class="media-body">
-                              <a href="{{ post.url }}">
-                                 <h3 style="color: #2d2d2d;">{{ post.title }}</h3>
-                              </a>
-                              <p>{{ post.date | date: "%B %d, %Y" }}</p>
-                           </div>
-                        </div>
-                        {% endfor %}
-                     </aside>
-                     {% if page.tags %}
-                     <aside class="single_sidebar_widget tag_cloud_widget">
-                        <h4 class="widget_title" style="color: #2d2d2d;">Tag Clouds</h4>
-                        <ul class="list">
-                           {% for tag in page.tags %}
-                           <li>
-                              <a href="#">{{ tag }}</a>
-                           </li>
-                           {% endfor %}
-                        </ul>
-                     </aside>
+                     </aside> -->
+
+                     {%include components/category_widget.html %}
+                     {%include components/recent_posts.html %}
+                                             {% if page.tags %}
+                   
+                     {%include components/tag_cloud_widget.html %}
                      {% endif %}
                      <!-- <aside class="single_sidebar_widget instagram_feeds">
                         <h4 class="widget_title" style="color: #2d2d2d;">Instagram Feeds</h4>
