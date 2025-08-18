@@ -124,17 +124,8 @@
                      {%include components/category_widget.html %}
                      {%include components/recent_posts.html %}
                     <!-- Newsletter Widget -->
-                    <aside class="single_sidebar_widget newsletter_widget">
-                        <h4 class="widget_title" style="color: #2d2d2d;">Newsletter</h4>
-                        <form action="#">
-                            <div class="form-group">
-                                <input type="email" class="form-control" onfocus="this.placeholder = ''"
-                                    onblur="this.placeholder = 'Enter email'" placeholder='Enter email' required>
-                            </div>
-                            <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
-                                type="submit">Subscribe</button>
-                        </form>
-                    </aside>
+
+                     {%include components/news_letter_widget.html post_url="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"%}
                 </div>
             </div>
         </div>

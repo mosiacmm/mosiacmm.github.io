@@ -347,9 +347,14 @@
                         
                      </aside>
                     <!-- Newsletter Widget -->
-                    <aside class="single_sidebar_widget newsletter_widget">
+
+                     <aside class="single_sidebar_widget newsletter_widget">
                         <h4 class="widget_title" style="color: #2d2d2d;">Newsletter</h4>
-                        <form action="#">
+                        <form 
+
+            action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                        method="post" >
+                        
                             <div class="form-group">
                                 <input type="email" class="form-control" onfocus="this.placeholder = ''"
                                     onblur="this.placeholder = 'Enter email'" placeholder='Enter email' required>
@@ -425,24 +430,42 @@
                                         <p>Heaven fruitful doesn't over lesser in days. Appear creeping.</p>
                                     </div>
                                     <!-- Form -->
-                                    <div class="footer-form">
-                                        <div id="mc_embed_signup">
-                                            <form target="_blank"
-                                                action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-                                                method="get" class="subscribe_form relative mail_part">
-                                                <input type="email" name="email" id="newsletter-form-email"
-                                                    placeholder="Email Address" class="placeholder hide-on-focus"
-                                                    onfocus="this.placeholder = ''"
-                                                    onblur="this.placeholder = ' Email Address '">
-                                                <div class="form-icon">
-                                                    <button type="submit" name="submit" id="newsletter-submit"
-                                                        class="email_icon newsletter-submit button-contactForm"><img
-                                                            src="assets/img/gallery/form.png" alt=""></button>
-                                                </div>
-                                                <div class="mt-10 info"></div>
-                                            </form>
-                                        </div>
-                                    </div>
+<div class="footer-form">
+    <div id="mc_embed_signup">
+        <form target="_blank"
+            action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+            method="post" class="subscribe_form relative mail_part" name="mc-embedded-subscribe-form">
+            <input type="email" name="EMAIL" id="newsletter-form-email"
+                placeholder="Email Address" class="placeholder hide-on-focus"
+                onfocus="this.placeholder = ''"
+                onblur="this.placeholder = ' Email Address '">
+            
+            <!-- Honeypot field -->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                <input type="text" name="b_1462626880ade1ac87bd9c93a_92a4423d01" tabindex="-1" value="">
+            </div>
+            
+            <div class="form-icon">
+                <button type="submit" name="subscribe" id="newsletter-submit"
+                    class="email_icon newsletter-submit button-contactForm"><img
+                        src="assets/img/gallery/form.png" alt=""></button>
+            </div>
+            <div class="mt-10 info"></div>
+        </form>
+    </div>
+</div>
+
+<!-- Mailchimp validation script -->
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+<script type='text/javascript'>
+(function($) {
+    window.fnames = new Array(); 
+    window.ftypes = new Array();
+    fnames[0]='EMAIL';
+    ftypes[0]='email';
+}(jQuery));
+</script>
+                                    
                                 </div>
                             </div>
                         </div>
