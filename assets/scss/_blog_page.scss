@@ -1,113 +1,135 @@
-
 // Home Page Blog
-.home-blog-area{
+.home-blog-area {
     background: #f8fcff;
-    .home-blog-single{
+
+    .home-blog-single {
         @include transition(.4s);
-        .blog-img-cap{
-            .blog-img{
+
+        .blog-img-cap {
+            .blog-img {
                 overflow: hidden;
                 position: relative;
-                img{
+
+                img {
                     width: 100%;
                     @include transform(scale (1));
                     transition: all 0.3s ease-out 0s;
                 }
+
                 // Date
-                .blog-date{
-                    background:#09cc7f;
-                    padding:15px 34px;
+                .blog-date {
+                    background: #e5b136;
+                    padding: 15px 34px;
                     display: inline-block;
                     position: absolute;
                     bottom: 0;
                     left: 0;
                     @include transition(.4s);
-                    @media #{$md}{
+
+                    @media #{$md} {
                         padding: 8px 20px;
                     }
-                    @media #{$sm}{
+
+                    @media #{$sm} {
                         padding: 8px 20px;
                     }
-                    @media #{$xs}{
+
+                    @media #{$xs} {
                         padding: 8px 20px;
                     }
-                
-                    span{
+
+                    span {
                         color: #fff;
                         font-size: 25px;
                         font-weight: 600;
                         line-height: 1;
                         margin: 0;
-                        @media #{$md}{
+
+                        @media #{$md} {
                             font-size: 22px;
                         }
-                        @media #{$sm}{
+
+                        @media #{$sm} {
                             font-size: 22px;
                         }
-                        @media #{$xs}{
+
+                        @media #{$xs} {
                             font-size: 22px;
                         }
                     }
-                    p{
+
+                    p {
                         color: #fff;
                         margin: 0;
                     }
                 }
             }
-            .blog-cap{
-             
+
+            .blog-cap {
+
                 background: #fff;
                 padding: 37px 129px 37px 50px;
                 border: 1px solid rgb(247, 247, 247);
                 border-top: 0;
                 @include transition(.4s);
-                @media #{$lg}{
+
+                @media #{$lg} {
                     padding: 37px 23px 37px 45px;
                 }
-                @media #{$sm}{
+
+                @media #{$sm} {
                     padding: 19px 8px 17px 18px;
                 }
-                @media #{$md}{
+
+                @media #{$md} {
                     padding: 19px 8px 17px 18px;
                 }
-                @media #{$xs}{
+
+                @media #{$xs} {
                     padding: 19px 8px 17px 18px;
                 }
-               
-                p{
+
+                p {
                     color: #707b8e;
                 }
-                h3{
-                    a{
-                        color:#191d34;
+
+                h3 {
+                    a {
+                        color: #191d34;
                         font-size: 24px;
                         font-weight: 700;
                         line-height: 1.4;
                         margin-bottom: 19px;
                         display: block;
                         text-transform: capitalize;
-                        &:hover{
+
+                        &:hover {
                             color: $theme-color;
                         }
-                        @media #{$md}{
+
+                        @media #{$md} {
                             font-size: 19px;
                         }
-                        @media #{$sm}{
+
+                        @media #{$sm} {
                             font-size: 19px;
                         }
-                        @media #{$xs}{
+
+                        @media #{$xs} {
                             font-size: 19px;
                         }
-                       
+
                     }
                 }
-                .more-btn{
+
+                .more-btn {
                     color: #3a3a3a;
                     text-transform: uppercase;
                     font-size: 14px;
                     font-family: $font_1;
                     color: #3a3a3a;
-                    &:hover{
+
+                    &:hover {
                         color: #014b85;
                     }
                 }
@@ -115,18 +137,21 @@
         }
     }
 }
-.home-blog-single:hover{
-    
-    .blog-img-cap{
+
+.home-blog-single:hover {
+
+    .blog-img-cap {
         .blog-img {
-            .blog-date{
-                background:$theme-color;
+            .blog-date {
+                background: $theme-color;
             }
-            img{
+
+            img {
                 @include transform(scale(1.04));
             }
         }
-        .blog-cap{ 
+
+        .blog-cap {
             border-top: 0;
         }
     }
@@ -142,13 +167,16 @@
         margin-bottom: 70px;
     }
 }
-.blog_area{
-    a{
+
+.blog_area {
+    a {
         color: $font_1 !important;
         text-decoration: none;
         transition: .4s;
-        &:hover, :hover{
-            background: -webkit-linear-gradient( 131deg, $theme-color 0%, $theme-color 99%);
+
+        &:hover,
+        :hover {
+            background: -webkit-linear-gradient(131deg, $theme-color 0%, $theme-color 99%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             text-decoration: none;
@@ -160,7 +188,7 @@
 .single-blog {
     overflow: hidden;
     margin-bottom: 30px;
-   
+
     &:hover {
         box-shadow: 0px 10px 20px 0px rgba(42, 34, 123, 0.1);
     }
@@ -178,7 +206,7 @@
             height: 100%;
             background: #000;
             opacity: 0;
-             @include transition(.3s);
+            @include transition(.3s);
         }
     }
 
@@ -270,7 +298,7 @@
         .thumb {
             &:after {
                 opacity: .7;
-                 @include transition(.3s);
+                @include transition(.3s);
             }
         }
     }
@@ -299,7 +327,7 @@
         bottom: 0;
         opacity: 0;
         visibility: hidden;
-         @include transition(.3s);
+        @include transition(.3s);
 
         .meta-bottom {
             p {
@@ -313,7 +341,7 @@
     }
 
     h4 {
-         @include transition(.3s);
+        @include transition(.3s);
         border-bottom: none;
         padding-bottom: 5px;
     }
@@ -336,7 +364,7 @@
         .single-blog-content {
             opacity: 1;
             visibility: visible;
-             @include transition(.3s);
+            @include transition(.3s);
         }
     }
 
@@ -373,7 +401,7 @@
             border-bottom: 1px solid #eeeeee;
             margin-bottom: 0px;
             padding-bottom: 20px;
-             @include transition(.3s);
+            @include transition(.3s);
 
             &:hover {
                 // // color: $baseColor;
@@ -797,7 +825,8 @@
         background: #fbf9ff;
         padding: 30px;
         margin-bottom: 30px;
-        .btn_1{
+
+        .btn_1 {
             margin-top: 0px;
         }
     }
@@ -828,16 +857,17 @@
         .input-group {
 
             button {
-                background:$theme-color;
+                background: $theme-color;
                 border-left: 0;
                 border: 1px solid #f0e9ff;
                 padding: 4px 15px;
                 border-left: 0;
                 cursor: pointer;
 
-                i{
+                i {
                     color: #fff;
                 }
+
                 span {
                     font-size: 14px;
                     color: #999999;
@@ -966,7 +996,7 @@
         ul {
             li {
                 display: inline-block;
-                
+
                 a {
                     display: inline-block;
                     border: 1px solid #eeeeee;
@@ -1384,14 +1414,14 @@
                 background: #000;
 
                 img {
-                     @include transition(.3s);
+                    @include transition(.3s);
                 }
             }
 
             .lnr {
                 margin-left: 20px;
                 opacity: 0;
-                 @include transition(.3s);
+                @include transition(.3s);
             }
 
             &:hover {
@@ -1419,14 +1449,14 @@
                 background: #000;
 
                 img {
-                     @include transition(.3s);
+                    @include transition(.3s);
                 }
             }
 
             .lnr {
                 margin-right: 20px;
                 opacity: 0;
-                 @include transition(.3s);
+                @include transition(.3s);
             }
 
             &:hover {
