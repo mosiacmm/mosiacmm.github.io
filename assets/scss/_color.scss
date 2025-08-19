@@ -1,54 +1,54 @@
-
 /*-------------   Color Variable  --------------*/
 
 //Colors
-	$white: #ffffff;
-	$black: #16161a;
-	$gray:#f7f7fd;
+$white: #ffffff;
+$black: #16161a;
+$gray: #f7f7fd;
 
 //Theme color
-	$theme-color: #09cc7f;
-	$theme-color2: #1f2b7b;
-	$theme-color3: #f27420;
-	$theme-color4: #ff3500;
+$theme-color: #e5b136;
+$theme-color2: #1f2b7b;
+$theme-color3: #f27420;
+$theme-color4: #ff3500;
 
 // btn and Section color
-	$btn_bg: #09cc7f;
+$btn_bg: #e5b136;
 
 // Heading color
-	$heading-color:#072366;
-	$heading_color2: #080808;
+$heading-color: #072366;
+$heading_color2: #080808;
 
-	
+
 // Body Font
-	$body-text-color: #6b7894;
-	$hr-border-color:#eceff8;
+$body-text-color: #6b7894;
+$hr-border-color: #eceff8;
 
 
 
 // Section Bg
-	$section_bg1: #454545;
+$section_bg1: #454545;
 
 
-.white-bg{
+.white-bg {
 	background: #ffffff;
 }
-.gray-bg{
+
+.gray-bg {
 	background: #f5f5f5;
 }
 
-	$gray-color: #bebebe;
-	$gray-color-2: #bdbdbd;
+$gray-color: #bebebe;
+$gray-color-2: #bdbdbd;
 
 
 // font color
-	$font_color1: #10285d;
-	$border_color: #fdcb9e;
+$font_color1: #10285d;
+$border_color: #fdcb9e;
 
 
 // bg
-	$brand-bg: #f1f4fa;
-	$testimonial-bg:#f9fafc;
+$brand-bg: #f1f4fa;
+$testimonial-bg: #f9fafc;
 
 
 
@@ -60,19 +60,24 @@
 .gray-bg {
 	background: $gray;
 }
+
 .white-bg {
-	background:$white;
+	background: $white;
 }
+
 .black-bg {
 	background: $black;
 }
+
 .theme-bg {
-	background:$theme-color;
+	background: $theme-color;
 }
-.brand-bg{
+
+.brand-bg {
 	background: $brand-bg;
 }
-.testimonial-bg{
+
+.testimonial-bg {
 	background: $testimonial-bg;
 }
 
@@ -81,9 +86,11 @@
 .white-color {
 	color: $white;
 }
+
 .black-color {
 	color: $black;
 }
+
 .theme-color {
 	color: $theme-color;
 }
