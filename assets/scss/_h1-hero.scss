@@ -169,12 +169,14 @@
 .blog-hero {
     background-image: url(../img/hero/hero2.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: 29%;
-    zoom: 3;
+
+    background-size: contain;
+
+    background-position-x: 50%;
+    zoom: 1.3;
 
     @media #{$md} {
-        zoom: 2;
+        zoom: 1.5;
     }
 
     @media #{$sm} {
@@ -185,8 +187,8 @@
     @media #{$xs} {
 
         zoom: 2;
-        background-position-y: 29%;
-        background-position-x: 43%;
+        // background-position-y: 29%;
+        // background-position-x: 43%;
     }
 
 
