@@ -1,14 +1,14 @@
 ---
 layout: blog_details
-title: Text and Typography
-description: Examples of text, typography, math equations, diagrams, flowcharts, pictures, videos, and more.
+title: နိုင်ငံသားဖြစ်မှုသည် နိုင်ငံရေးအရ အသုံးချစရာမဟုတ်
+description: .
 author:
-  name : Cotes
+  name : ကျော်ကျော်သိန်း
   avatar_url: https://avatar.iran.liara.run/public
-  biography: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  biography: ကျော်ကျော်သိန်း သည် lor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 date: 2016-06-28 11:33:00 +0800
-categories: [Politics, Development]
-tags: [typography]
+categories: [HumanRights, Human Dignity, MosaicVoice]
+tags: [MosaicVoice, Blog]
 pin: true
 math: true
 mermaid: true
@@ -16,43 +16,26 @@ image:
   path: https://images.unsplash.com/photo-1629753908080-e8551ac57b8d?q=80&w=3500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
   alt: Responsive rendering of Chirpy theme on multiple devices.
+heroimage: 
+  path: https://images.unsplash.com/photo-1629753908080-e8551ac57b8d?q=80&w=3500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
+  alt: Responsive rendering of Chirpy theme on multiple devices.
 
 ---
+jus soli လို့ ခေါ်တဲ့ birthright citizenship မူဝါဒကို ၂၀၂၅ ခုနှစ်အထိဆိုရင် ကမ္ဘာပေါ်က နိုင်ငံ ပေါင်း ၃၀ ပတ်ဝန်းကျင်မှာ ကျင့်သုံးကြပါတယ်။ ဒီမူဝါဒရဲ့  အနှစ်သာရကတော့ မိဘတွေက သူတို့ ကလေးမွေးဖြစ်သွားတဲ့ နိုင်ငံရဲ့ နိုင်ငံသား ဟုတ်သည်ဖြစ်စေ မဟုတ်သည်ဖြစ်စေ မွေးလာတဲ့ ကလေးဟာ အဲဒီ နိုင်ငံရဲ့ နိုင်ငံသား အလိုအလျောက် ဖြစ်ပါတယ်၊ ခြွင်းချက်မဲ့ပါ။ ဘယ်လောက် လူသားဆန်လိုက်ပါသလဲ။
+အဲဒီနိုင်ငံတွေထဲမှာ အမေရိကန်ပြည်ထောင်စုလည်း အပါအဝင်ဖြစ်ပြီး အခု ထရမ့်ပ်အစိုးရ လက်ထက်မှာ အဲဒါကိုပြောင်းဖို့ အကြီးအကျယ် ကြိုးစားနေပါတယ်။ ဒီဆောင်းပါး ရေးချိန်ထိတော့ အပြောင်းအလဲ မရှိသေးပါဘူး။
 
+## ကိုယ့်နိုင်ငံထဲမှာ နိုင်ငံမဲ့၊ သူများနိုင်ငံမှာ အထောက်အထားမဲ့
+ကျနော် ထောင်ကလွတ်လာတော့ ကျနော့်မှာ မှတ်ပုံတင် မရှိတော့ပါဘူး။ အဖမ်းခံရချိန်က သိမ်း သွားပြီး ပြန်မပေးတာလား၊ ဘယ်လို ပျောက်သွားတာလဲတော့ မမှတ်မိတော့ဘူး။ အဲဒီအတွက် လည်း စိတ်ထဲမှာ ပူပန်သောက မရှိခဲ့ဖူးပါဘူး။ ဒီလိုပဲ နေခဲ့လိုက်တာပဲ။ မတိုက်ဆိုင်လို့လားမသိ၊ အဲဒါကြောင့်မို့တော့ ပြဿနာတခုခု မကြုံခဲ့ရဖူးပါဘူး။
+၂၀၀၁ နှစ်ကုန်မှာ ပြည်ပြေးဖြစ်ဖို့ အကြောင်းဖန်လာတော့ မှတ်ပုံတင်ပျောက် ထောက်ခံစာနဲ့ပဲ ခရီး ထွက်လာလိုက်တယ်။ လမ်းမှာ လဝကဆိုသူတွေက စစ်တော့လည်း အဲဒါပဲ ထုတ်ပြလိုက်တာပဲ။
+သူများနိုင်ငံမှာ အထောက်အထားမဲ့ လူတယောက်အဖြစ် နေခဲ့ရချိန်တွေမှာလည်း ကိုယ့်ကိုယ်ကို ငါဟာ နိုင်ငံမဲ့တယောက် ဖြစ်နေပါလားလို့ တခါမှ မတွေးဖြစ်ခဲ့ဖူးဘူး။ တကယ်ကတော့ မိခင်နိုင်ငံရဲ့ သက်ဆိုင်ရာ အထောက်အထားလည်း ဘာမှမရှိ၊ တဘက်နိုင်ငံမှာလည်း ဘာအထောက်အထားမှ မရှိသူ တယောက်အနေနဲ့ ဘယ်နိုင်ငံကမှ နိုင်ငံသားအဖြစ် တရားဝင် အသိအမှတ်ပြုမခံရတဲ့ အကာအကွယ်မဲ့ အခြေအနေမျိုးနဲ့ နေထိုင်ခဲ့ရတယ်ဆိုတာ ကိုယ်တိုင်တောင် သေချာ မတွေးမိခဲ့ဖူး ပါဘူး။ ကိုယ်က ကိုယ့်ကိုယ်ကိုတော့ မြန်မာနိုင်ငံသားလို့ အမြဲတမ်း ခံယူခဲ့တာပဲလေ။
+## တတိယနိုင်ငံတခုရဲ့ နိုင်ငံသား
+၂၀၀၅ ခုနှစ် နှစ်လယ်ပိုင်းမှာ အမေရိကန်ကို ရွှေ့ပြောင်းအခြေစိုက်ဖို့ ဖြစ်လာပါတယ်။ အဲဒါက လည်း ကိုယ်တိုင်က အမေရိကန်ကို ရွေးချယ်ခဲ့လို့မဟုတ်ဘဲ သက်ဆိုင်ရာ လုပ်ထုံးလုပ်နည်းတွေ အရ သတ်မှတ်တဲ့ထဲမှာ ပါသွားတာပါ။ နောက် အချိန်တန်တော့ အမေရိကန်နိုင်ငံသား ဖြစ်သွားတာ ပါပဲ။ အဲဒီအချိန်မှာ အဓိကဖြစ်တဲ့ ခံစားမှုကတော့ လုံခြုံမှုနဲ့ စိတ်အေးချမ်းမှုပါ။ ဘယ်သွားသွား နောက်ကျောမလုံတဲ့ဘဝ မဟုတ်တော့ဘူးဆိုတဲ့ ခံစားချက်က လူတယောက်ရဲ့ လူသားဖြစ်တည်မှု အတွက် ဘယ်လောက် အရေးကြီးတယ်ဆိုတာ ကိုယ်တိုင် သိခဲ့ရပါတယ်။
+## နိုင်ငံတွင်း မွေးသူချင်းတူတူ
+မြန်မာနိုင်ငံမှာမွေးပြီး နိုင်ငံသားမှတ်ပုံတင် ရထားသူတွေရဲ့ မှတ်ပုံတင်တွေမှာ လူမျိုးဆိုတာ တခုပါ ပြီး အဲဒီနေရာမှာ ‘ဗမာ’ လို့ ရေးမထားရင် နေရာဌာနပေါင်းစုံမှာ နည်းလမ်းအမျိုးမျိုးနဲ့ ခွဲခြား ဆက်ဆံခံရပါတယ်။ နောက်ဆုံး နိုင်ငံကူးလက်မှတ် သွားလုပ်ရင်တောင် လူမျိုးဆိုတာကို ဖော်ပြ ထားပုံပေါ်မူတည်ပြီး ငွေညှစ်နည်းပေါင်းစုံနဲ့ ညစ်ပတ်ခံရပါတယ်။ ငွေသာပုံပေးလို့ကတော့ အဲဒီ လက်မှတ်ကို လဝကအရာရှိဆိုသူ၊ ရဲအရာရှိဆိုသူက အိမ်တိုင်ရာရောက်တောင် လာပို့ပါတယ်။ ဆိုတော့ ဒါက ညစ်ပတ်ဖို့၊ ယုတ်မာဖို့၊ ငွေညှစ်ဖို့သက်သက် လုပ်ထားတာပါ။ ဘာမှ တိုင်းပြည်နဲ့ လူမျိုးကို ကာကွယ်ဖို့ မဟုတ်ပါဘူး၊ ဘာမှ လူမြိုမခံရဖို့ ကာကွယ်ထားတာ မဟုတ်ပါဘူး။ တခါ အဲဒါကိုကိုင်ပြီး နိုင်ငံရေးအရ အသုံးချပါသေးတယ်။ သုံးချင်တဲ့အခါကျတော့ မဲပေးလို့ရအောင် မလျော်သြဇာသုံးပြီး မသုံးချင်တော့လည်း မလျော်သြဇာသုံးပြီးတော့ပဲ နိုင်ငံမဲ့သူတွေလိုဖြစ် အောင်၊ တရားမဝင် ဝင်လာသူတွေလိုဖြစ်အောင် လုပ်ကြပါတယ်။
+## နိုင်ငံသားဖြစ်မှုနဲ့ လူသားဂုဏ်သိက္ခာ
+လူဆိုတာ မွေးလာတုန်းက ဘယ်နိုင်ငံသား ဖြစ်ရမယ်ဟေ့ဆိုပြီး မွေးလာတာမဟုတ်ပါဘူး။ မိဘတွေ က အကြောင်းအမျိုးမျိုးကြောင့် ဟိုနိုင်ငံ ဒီနိုင်ငံမှာ မွေးကြရတာကနေ သက်ဆိုင်ရာနိုင်ငံရဲ့ ပြဌာန်း ဥပဒေတွေအရ နိုင်ငံသားဖြစ်ခြင်း မဖြစ်ခြင်းဆိုတာ သတ်မှတ်ခံကြရတာပါ။ ဒီမြေမှာ မွေးတဲ့ ကလေး ဒီနိုင်ငံသား ဖြစ်ခွင့်ရှိတယ်ဆိုတာ အင်မတန့်ကို ကျိုးကြောင်းဆီလျော်တဲ့ သတ်မှတ်ချက် တခုပါ။ ဒါကို နိုင်ငံရေးပယောဂနဲ့ ပယ်ဖျက်ဖို့ ကြိုးစားတာ လူမဆန်တာပါဘဲ။
+နိုင်ငံတခုရဲ့ နိုင်ငံသားဖြစ်ခြင်းကြောင့် အဲဒီလူတယောက်ဟာ စိတ်အေးချမ်း လုံခြုံမှု ခံစားရတာနဲ့ အမျှ သက်ဆိုင်ရာ လူ့အဖွဲ့အစည်းကို အနည်းနဲ့အများဆိုသလို ကောင်းကျိုးပြုဖို့ လမ်းစပွင့်သွားစေ ပါတယ်။ တထိတ်ထိတ်တလန့်လန့်နဲ့ နေနေရမှတော့ လူ့အဖွဲ့အစည်းကို ကောင်းကျိုးပြုဖို့ နေနေသာသာ ကိုယ်တိုင်အတွက် ကောင်းကျိုးပြုဖို့တောင် ခက်ခဲလှပါတယ်။
+နိုင်ငံတခုမှာ မွေးဖွားသူတယောက်ဟာ မှတ်ပုံတင်လို့ခေါ်တဲ့ သက်ဆိုင်ရာနိုင်ငံရဲ့ စာရွက်စာတမ်းတခု မရှိတာနဲ့ဘဲ အဲဒီနိုင်ငံရဲ့ နိုင်ငံသားဖြစ်ခွင့် ဆုံးရှုံးရတယ်ဆိုတာ လူမဆန်တဲ့ သတ်မှတ်ချက်တခုပါပဲ။ နိုင်ငံသားဖြစ်ခွင့် ဆုံးရှုံးရတဲ့အပြင် နည်းအမျိုးမျိုးနဲ့ ပိတ်ပင်ကန့်သတ်ခံရတာကြောင့် နောက်ဆက် တွဲ လူမှုစီးပွားဘဝ ဆုံးရှုံးမှုတွေက လူတယောက်ချင်းစီအတွက်ရော၊ လူ့အဖွဲ့အစည်းတခုလုံး အတွက်ပါ ဘယ်လိုမှ ကောင်းကျိုးမဖြစ်စေပါဘူး။ ဒါ့အပြင် ဒီအခြေအနေကို အခွင့်ကောင်းယူ အသုံးချချင်တဲ့ ပုံစံမျိုးစုံ မသမာသူတွေကြောင့် ပိုပြီးဆိုးရွားတဲ့ အကျိုးဆက်တွေကို တဦးချင်းစီအ နေနဲ့ရော လူ့အဖွဲ့အစည်းတခုလုံးအနေနဲ့ပါ ကြုံတွေ့ ခံစားရစေပါတယ်။
+နိုင်ငံတခုခုရဲ့ နိုင်ငံသားဖြစ်ခွင့်ဆိုတာ လူသားတိုင်းရဲ့ မွေးရာပါအခွင့်အရေး ဖြစ်ပါတယ်။ အဲဒီအခွင့် အရေးကို ဘယ်လိုအကြောင်းပြချက်နဲ့မှ၊ ဘယ်သူကမှ ပယ်ဖျက်ခွင့်မရှိပါဘူး။ နိုင်ငံတခုမှာ မွေးဖွား နေထိုင် ကြီးပြင်းပြီး အဲဒီနိုင်ငံကိုပဲ အိမ်လို့ သတ်မှတ်ထားသူတွေအတွက် တခြားမှာ အိမ်ဆိုတာ မရှိပါဘူး။
 
-This tutorial will guide you how to write a post in the _Chirpy_ template, and it's worth reading even if you've used Jekyll before, as many features require specific variables to be set.
-
-## Naming and Path
-
-Create a new file named `YYYY-MM-DD-TITLE.EXTENSION`{: .filepath} and put it in the `_posts`{: .filepath} of the root directory. Please note that the `EXTENSION`{: .filepath} must be one of `md`{: .filepath} and `markdown`{: .filepath}. If you want to save time of creating files, please consider using the plugin [`Jekyll-Compose`](https://github.com/jekyll/jekyll-compose) to accomplish this.
-
-## Front Matter
-
-Basically, you need to fill the [Front Matter](https://jekyllrb.com/docs/front-matter/) as below at the top of the post:
-
-```yaml
----
-title: TITLE
-date: YYYY-MM-DD HH:MM:SS +/-TTTT
-categories: [TOP_CATEGORIE, SUB_CATEGORIE]
-tags: [TAG]     # TAG names should always be lowercase
----
-```
-
-> The posts' _layout_ has been set to `post` by default, so there is no need to add the variable _layout_ in the Front Matter block.
-{: .prompt-tip }
-
-### Timezone of Date
-
-To accurately record the release date of a post, you should not only set up the `timezone` of `_config.yml`{: .filepath} but also provide the post's timezone in variable `date` of its Front Matter block. Format: `+/-TTTT`, e.g. `+0800`.
-
-### Categories and Tags
-
-The `categories` of each post are designed to contain up to two elements, and the number of elements in `tags` can be zero to infinity. For instance:
-
-```yaml
----
-categories: [Animal, Insect]
-tags: [bee]
----
-```
