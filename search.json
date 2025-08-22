@@ -7,6 +7,8 @@ layout: null
       "id": "{{ forloop.index0 }}",
       "title": "{{ post.title | escape }}",
       "content": "{{ post.content | strip_html | strip_newlines | escape }}",
+
+      "description": "{{ post.description | strip_html | strip_newlines | escape }}",
       "excerpt": "{{ post.excerpt | strip_html | strip_newlines | escape }}",
       "url": "{{ post.url | relative_url }}",
       "date": "{{ post.date | date: '%B %d, %Y' }}",

@@ -175,7 +175,7 @@
                         <a class="d-inline-block" href="${post.url}">
                             <h2 class="blog-head" style="color: #2d2d2d;">${post.title}</h2>
                         </a>
-                        <p>${post.excerpt}</p>
+                        <p>${post.description}</p>
                         <ul class="blog-info-link">
                             ${post.categories ? `<li><a href="#"><i class="fa fa-user"></i> ${post.categories}</a></li>` : ''}
                             ${post.comments && post.comments > 0 ? `<li><a href="#"><i class="fa fa-comments"></i> ${post.comments} Comments</a></li>` : ''}

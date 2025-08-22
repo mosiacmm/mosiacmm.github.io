@@ -55,10 +55,10 @@
                             <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
                             <ul class="blog-info-link">
                                 {% if post.categories %}
-                                <li><a href="#"><i class="fa fa-user"></i> {{ post.categories | join: ", " }}</a></li>
+                                <li><a href="#"><i class="fa fa-user"></i> {{ post.author.name | join: ", " }}</a></li>
                                 {% endif %}
                                 {% if post.comments %}
-                                <li><a href="#"><i class="fa fa-comments"></i> {{ post.comments }} Comments</a></li>
+                                <li><a href="#"><i class="fa fa-comments"></i> {{ post.categories }} Comments</a></li>
                                 {% endif %}
                             </ul>
                         </div>
