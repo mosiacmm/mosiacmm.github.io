@@ -1,15 +1,16 @@
 pagination:
   enabled: true
   per_page: 4
-  collection: 'posts'
-  permalink: '/blog/:num.html'
+  collection: "posts"
+  permalink: "/blog/:num.html"
   # title: ':title - Page :num'
-  indexpage: '/blog/index.html'
-  debug : true
+  indexpage: "/blog/index.html"
+  debug: true
   limit: 0
-  sort_field: 'date'
+  sort_field: "date"
   sort_reverse: true
 
 plugins:
   - jekyll-paginate-v2
   - jekyll-watch
+  - jekyll-sitemap
