@@ -1,6 +1,9 @@
         
         {%assign bg_url="https://fpoimg.com/400x350?text=Preview&bg_color=e5b136&text_color=e5b136" %}
 
+
+        {%assign section_bg_url="https://fpoimg.com/400x350?text=Preview&bg_color=fff&text_color=fff" %}
+
         {%assign action_text="Lets Chenge The World With Humanity"%}
 
         {%assign action_button_text="Become A Volunteer"%}
@@ -10,6 +13,12 @@
         {%if include.bg_url %}
 
         {%assign bg_url=include.bg_url %}
+
+        {%endif %}
+
+ {%if include.section_bg_url %}
+
+        {%assign section_bg_url=include.section_bg_url %}
 
         {%endif %}
 
@@ -33,7 +42,7 @@
 
 
         
-        <section class="wantToWork-area ">
+        <section class="wantToWork-area" data-background={{section_bg_url}}>
             <div class="container">
                 <div class="wants-wrapper w-padding2  section-bg" data-background={{bg_url}}>
                     <div class="row align-items-center justify-content-between">
