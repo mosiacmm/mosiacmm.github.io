@@ -1,0 +1,33 @@
+<!-- Recent Posts Component - Loop through latest 4 posts -->
+{% assign recent_posts = site.posts | reversed | slice:0, 4 %}
+
+{% for post in recent_posts %}
+<div class="col-xl-6 col-lg-6 col-md-6">
+    <div class="home-blog-single mb-30">
+        <div class="blog-img-cap">
+            <div class="blog-img">
+                {% if post.image %}
+                    <img src="{{ post.image.path }}" alt="{{ post.image_alt | default: post.title }}">
+                {% else %}
+                    <img src="assets/img/gallery/home-blog2.png" alt="{{ post.title }}">
+                {% endif %}
+                <!-- Blog date -->
+                <div class="blog-date text-center">
+                    <span>{{ post.date | date: "%d" }}</span>
+                    <p>{{ post.date | date: "%b" }}</p>
+                </div>
+            </div>
+            <div class="blog-cap">
+                {% if post.category %}
+                    <p>{{ post.category | capitalize }}</p>
+                {% elsif post.categories %}
+                    <p>{{ post.categories | first | capitalize }}</p>
+                {% else %}
+                    <p>Blog Post</p>
+                {% endif %}
+                <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
