@@ -28,32 +28,33 @@
 */
 
 // Default
-	@import 'variables';
-	@import 'mixins';
-	@import 'overlay';
-	@import 'common';
-	@import 'color';
+@import 'variables';
+@import 'mixins';
+@import 'overlay';
+@import 'common';
+@import 'color';
 
-	
+
 // Homepage1
-	@import 'headerMenu';
-	@import 'h1-hero';
-	@import 'about';
-	@import 'services_section';
-	@import 'cases';
-	@import 'featured-Jobs';
-	@import 'testimonial';
-	@import 'wantTowork';
-	@import 'team';
-	@import 'count_down';
-	@import 'footer';
+@import 'headerMenu';
+@import 'h1-hero';
+@import 'about';
+@import 'services_section';
+@import 'cases';
+@import 'featured-Jobs';
+@import 'testimonial';
+@import 'wantTowork';
+@import 'team';
+@import 'count_down';
+@import 'footer';
 
 // inner Page
 
 
 // Default Element Page
-	@import 'blog_page';
-	@import 'contact';
-	@import 'bradcam';
-	@import 'extend';
-	@import 'elements';
+@import 'blog_page';
+@import 'contact';
+@import 'bradcam';
+@import 'extend';
+@import 'elements';
+@import 'research_application'

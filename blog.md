@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: "Mosiac Myanmar Blog"
+title: "Mosaic Voice | Blog"
 description: "We are Mosiac , Lorem ipsum Dollar Sit Amet"
 language: "en"
 pagination:
