@@ -9,7 +9,7 @@
 
 <!-- Open Graph  -->
 
-<meta property="og:title" content="Your Page Title">
+<meta property="og:title" content="{{page.title | default: site.title }}">
 <meta property="og:description" content="{{page.opengraph.description | default: page.description}}">
 <meta property="og:image" content="{{page.image.path | default: "/../../assets/img/blog/hero.png"}}"">
 <meta property="og:url" content="{{site.url}}{{page.url}}">
