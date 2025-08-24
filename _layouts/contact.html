@@ -63,7 +63,7 @@
     <section class="contact-section">
         <div class="container">
             <div class="d-none d-sm-block mb-5 pb-4">
-                <div id="map" style="height: 480px; position: relative; overflow: hidden;">
+                <div class="d-none" id="map" style="height: 480px; position: relative; overflow: hidden;">
                     <div
                         style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);">
                         <div class="gm-style"
@@ -522,9 +522,12 @@
                     <h2 class="contact-title">Get in Touch</h2>
                 </div>
                 <div class="col-lg-8">
-                    <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm"
-                        novalidate="novalidate">
-                        <div class="row">
+                    <!-- <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm"
+                        novalidate="novalidate"> -->
+
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd_ljTTofMk9rQ1J3n7dUHrcRBNlXN9wqlWy6HXbMr1cvIpuw/viewform?embedded=true" width="640" height="777" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<form class="form-contact contact_form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd_ljTTofMk9rQ1J3n7dUHrcRBNlXN9wqlWy6HXbMr1cvIpuw/formResponse" target="_self" method="POST" id="mG61Hd" jsmodel="TOfxwf Q91hve CEkLOc" data-shuffle-seed="8202155445260283220" data-clean-viewform-url="https://docs.google.com/forms/d/e/1FAIpQLSd_ljTTofMk9rQ1J3n7dUHrcRBNlXN9wqlWy6HXbMr1cvIpuw/viewform?usp=send_form" data-response="%.@.]" data-dlp-data="%.@.null,false]" data-first-entry="0" data-last-entry="4" data-is-first-page="true">
+                        <div class="d-none row">
                             <div class="col-12">
                                 <div class="form-group">
                                     <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9"
@@ -534,7 +537,7 @@
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <input class="form-control valid" name="name" id="name" type="text"
+                                    <input class="form-control valid" name="YPqjbf" id="name" type="text" 
                                         onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'"
                                         placeholder="Enter your name">
                                 </div>
@@ -554,7 +557,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="form-group mt-3">
+                        <div class="d-none form-group mt-3">
                             <button type="submit" class="button button-contactForm boxed-btn">Send</button>
                         </div>
                     </form>
@@ -597,7 +600,7 @@
 <!-- JS here -->
 
 
-    {% include components/script_import.html %}
+    {% include script_import.html %}
 
 </body>
 
