@@ -2967,7 +2967,7 @@ hr {
   font-size: 50px;
   font-weight: 800;
   text-transform: capitalize;
-  line-height: 1;
+  line-height: 160%;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .slider-area2 .hero-cap h2 {

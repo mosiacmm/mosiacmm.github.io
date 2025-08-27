@@ -9,7 +9,7 @@ author:
 date: 2016-06-28 11:33:00 +0800
 categories: [HumanRights, Human Dignity, MosaicVoice]
 tags: [MosaicVoice, Blog]
-pin: true
+pin: false
 math: true
 mermaid: true
 image:

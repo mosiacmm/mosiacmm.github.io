@@ -30,14 +30,47 @@
         <!-- Hero End -->
         <!--? Blog Area Start-->
 
-    
+   {% assign pinned_posts = paginator.posts | where: "pin", true %}
+{% assign regular_posts = paginator.posts | where: "pin", false %} 
 
         <section class="blog_area section-padding">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mb-5 mb-lg-0">
                 <div class="blog_left_sidebar">
-                    {% for post in paginator.posts %}
+                    <h4 style="color: #2d2d2d;">Pinned Post</h4>
+{% for post in pinned_posts %}
+                    <article class="blog_item">
+                        <div class="blog_item_img">
+                            {% if post.image %}
+                            <img class="card-img rounded-0" src="{{ post.image.path | relative_url }}" alt="{{ post.image.alt | default:post.title }}">
+                            {% endif %}
+                            <a href="#" class="blog_item_date">
+                                <h3>{{ post.date | date: "%-d" }}</h3>
+                                <p>{{ post.date | date: "%b" }}</p>
+                            </a>
+                        </div>
+                        <div class="blog_details">
+                            <a class="d-inline-block" href="{{ post.url | relative_url }}">
+                                <h2 class="blog-head" style="color: #2d2d2d;">{{ post.title }}</h2>
+                            </a>
+                            <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+                            <ul class="blog-info-link">
+                                {% if post.categories %}
+                                <li><a href="#"><i class="fa fa-user"></i> {{ post.author.name | join: ", " }}</a></li>
+                                {% endif %}
+                                {% if post.comments %}
+                                <li><a href="#"><i class="fa fa-comments"></i> {{ post.categories }} Comments</a></li>
+                                {% endif %}
+                            </ul>
+                        </div>
+                    </article>
+                    {% endfor %}
+                    <hr>
+
+                    <h4 style="color: #2d2d2d;">Recent Posts</h4>
+                    {% for post in regular_posts %}
+
                     <article class="blog_item">
                         <div class="blog_item_img">
                             {% if post.image %}
