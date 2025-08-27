@@ -1,7 +1,7 @@
 ---
 layout: blog_details
 title:  စာမူများဖိတ်ခေါ်ခြင်း  
-date:   2016-11-20 19:16:49 +0100
+date:   2025-01-02 19:16:49 +0100
 categories: [ MosaicVoice]
 tags: [MosaicVoice, Blog, Calling for Papers]
 description:  စာမူများဖိတ်ခေါ်ပါသည်
