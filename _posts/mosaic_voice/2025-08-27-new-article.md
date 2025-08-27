@@ -6,7 +6,7 @@ author:
   name : ကျော်ကျော်သိန်း
   avatar_url: https://avatar.iran.liara.run/public
   biography: ကျော်ကျော်သိန်း သည် lor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-date: 2025-08-28 
+date: 2025-08-27
 categories: [HumanRights, Human Dignity, MosaicVoice]
 tags: [MosaicVoice, Blog]
 pin: false
