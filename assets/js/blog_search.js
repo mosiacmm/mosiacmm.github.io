@@ -219,14 +219,15 @@
         // Display current page results
         paginatedResults.forEach(post => {
             searchHTML += `
-                <article class="blog_item">
-                    <div class="blog_item_img">
+<article class="blog_item">
+                                            <a class="d-inline-block" href="${post.url}"><div class="blog_item_img">
                         ${post.image ? `<img class="card-img rounded-0" src="${post.image}" alt="${post.image_alt || ''}">` : ''}
-                        <a href="#" class="blog_item_date">
+                        <a href="${post.url}" class="blog_item_date">
                             <h3>${new Date(post.date).getDate()}</h3>
                             <p>${new Date(post.date).toLocaleDateString('en-US', { month: 'short' })}</p>
                         </a>
                     </div>
+                    </a>
                     <div class="blog_details">
                         <a class="d-inline-block" href="${post.url}">
                             <h2 class="blog-head" style="color: #2d2d2d;">${post.title}</h2>

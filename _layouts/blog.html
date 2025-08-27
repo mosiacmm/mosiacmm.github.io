@@ -30,7 +30,7 @@
         <!-- Hero End -->
         <!--? Blog Area Start-->
 
-   {% assign pinned_posts = paginator.posts | where: "pin", true %}
+   {% assign pinned_posts = site.posts | where: "pin", true %}
 {% assign regular_posts = paginator.posts | where: "pin", false %} 
 
         <section class="blog_area section-padding">
@@ -39,17 +39,17 @@
             <div class="col-lg-8 mb-5 mb-lg-0">
                 <div class="blog_left_sidebar">
                     <h4 style="color: #2d2d2d;">Pinned Post</h4>
-{% for post in pinned_posts %}
+                {% for post in pinned_posts %}
                     <article class="blog_item">
-                        <div class="blog_item_img">
+                     <a  href="{{ post.url | relative_url }}">   <div class="blog_item_img">
                             {% if post.image %}
                             <img class="card-img rounded-0" src="{{ post.image.path | relative_url }}" alt="{{ post.image.alt | default:post.title }}">
                             {% endif %}
-                            <a href="#" class="blog_item_date">
+                            <a href="{{ post.url | relative_url }}" class="blog_item_date">
                                 <h3>{{ post.date | date: "%-d" }}</h3>
                                 <p>{{ post.date | date: "%b" }}</p>
                             </a>
-                        </div>
+                        </div></a>
                         <div class="blog_details">
                             <a class="d-inline-block" href="{{ post.url | relative_url }}">
                                 <h2 class="blog-head" style="color: #2d2d2d;">{{ post.title }}</h2>
@@ -72,15 +72,16 @@
                     {% for post in regular_posts %}
 
                     <article class="blog_item">
-                        <div class="blog_item_img">
+                                          <a  href="{{ post.url | relative_url }}">     <div class="blog_item_img">
                             {% if post.image %}
                             <img class="card-img rounded-0" src="{{ post.image.path | relative_url }}" alt="{{ post.image.alt | default:post.title }}">
                             {% endif %}
-                            <a href="#" class="blog_item_date">
+                            <a href="{{ post.url | relative_url }}" class="blog_item_date">
                                 <h3>{{ post.date | date: "%-d" }}</h3>
                                 <p>{{ post.date | date: "%b" }}</p>
                             </a>
                         </div>
+                        </a>
                         <div class="blog_details">
                             <a class="d-inline-block" href="{{ post.url | relative_url }}">
                                 <h2 class="blog-head" style="color: #2d2d2d;">{{ post.title }}</h2>
