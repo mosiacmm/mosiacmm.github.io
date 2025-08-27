@@ -1,10 +1,13 @@
 ---
 layout: blog_details
 title:  စာမူများဖိတ်ခေါ်ခြင်း  
-date:   2025-01-02 19:16:49 +0100
-categories: [ MosaicVoice]
+date:   2025-08-27 19:16:49 +0100
+categories: [MosaicVoice]
 tags: [MosaicVoice, Blog, Calling for Papers]
 description:  စာမူများဖိတ်ခေါ်ပါသည်
+
+opengraph:
+  description: We are looking for papers from all around the word 
 
 pin: true
 author:
@@ -13,99 +16,62 @@ author:
   biography: NA
 image:
   path: /../../assets/img/blog/hero.png 
-  lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
   alt: Mosaic Voices Calling for Paper 
 
 ---
 
-# Mosaic Voice Blog - Open Invitation for Contributors
-## လေးစားအပ်သော စာရေးဆရာများနှင့် အကြောင်းအရာဖန်တီးသူများ
+**“Mosaic Voices”**
 
----
+**“အရောင်သွေးစုံ အတွေးအမြင်များမှသည် ပါဝင် ပေါင်းစပ် အနာဂတ်ဆီသို့”**
 
-## **English Version**
+**“From Diverse Perspectives to the Shared Future”**
 
-### Join Our Community of Voices!
+**“စာမူများ ဖိတ်ခေါ်ခြင်း”**
 
-**Mosaic Voice Blog** is actively seeking passionate writers and storytellers to contribute to our growing platform. We celebrate the rich tapestry of human experiences, with a special focus on Burmese culture, perspectives, and stories that deserve to be heard.
+"Mosaic Voices" သည် စုံလင်ကွဲပြားသည့် မြန်မာ့ လူမှုအဝန်းအဝိုင်းများအကြား ရေရှည် တည်တံ့ခိုင်မြဲသည့်ငြိမ်းချမ်းရေးနှင့် သဟဇာတဖြစ်ရေးကိုမြှင့်တင်ရန်ရည်ရွယ်သော သုတေသနနှင့် လေ့လာ တွေ့ရှိချက်များ၊ သုံးသပ်ချက်များ၊ အတွေ့အကြုံများ၊ အတွေးအမြင်များကို မျှဝေ ဖော်ပြနိုင်မည့် ပလက်ဖောင်းတခု ဖြစ်ပါသည်။
 
-#### **What We're Looking For:**
-- **Personal Stories & Memoirs** - Share your journey, struggles, and triumphs
-- **Cultural Insights** - Explore Burmese traditions, festivals, and customs
-- **Social Commentary** - Address current issues affecting Myanmar and its diaspora
-- **Literature & Poetry** - Original creative works in Burmese or English
-- **Historical Perspectives** - Stories from the past that shape our present
-- **Community Spotlights** - Celebrate unsung heroes and local initiatives
-- **Food & Lifestyle** - Traditional recipes, wellness practices, and daily life
-- **Arts & Entertainment** - Reviews, artist profiles, and cultural events
+ဤပလက်ဖောင်းတွင် အောက်ပါ အကြောင်းအရာများနှင့် သက်ဆိုင်သည့် ကိုယ်တိုင်ရေး စာမူများကို ဖော်ပြသွားမည် ဖြစ်ပါသည်။
 
-#### **Submission Guidelines:**
-- **Word Count**: 800-2,500 words
-- **Languages**: Burmese, English, or bilingual pieces welcome
-- **Format**: Original, unpublished content only
-- **Tone**: Authentic, respectful, and engaging
-- **Deadline**: Rolling submissions accepted year-round
+🔹 နိုင်ငံသားဖြစ်မှု၊ ပဋိပက္ခနှင့် နေရပ်စွန့်ခွါတိမ်းရှောင်ရမှု  
+(Citizenship, Conflict and Displacement)
 
-#### **What You'll Get:**
-- Byline credit and author bio
-- Social media promotion
-- Connection with like-minded writers
-- Opportunity to reach global Burmese community
-- Potential for ongoing collaboration
+🔹 လူသားရပိုင်ခွင့်၊ ဗဟုဝါဒနှင့် ဒီမိုကရေစီ  
+(Human Rights, Pluralism and Democracy)
 
----
+🔹 တရားမျှတမှုနှင့် ငြိမ်းချမ်းရေး  
+(Justice and Peace)
 
-## **Burmese Version - မြန်မာဘာသာ**
+🔹 အားလုံးပါဝင်နိုင်သော ဖက်ဒရယ် ဒီမိုကရေစီစနစ်  
+(Inclusive Federal Democracy)
 
-### ကျွန်ုပ်တို့၏အသံများပေါင်းစည်းထားသော အသိုက်အဝန်းတွင် ပါဝင်လိုက်ပါ!
+🔹 ပဋိပက္ခနှင့် လူသားလုံခြုံရေး  
+(Conflict and Human Security)
 
-**Mosaic Voice Blog** သည် ကျွန်ုပ်တို့၏ ကြီးထွားလာသော ပလက်ဖောင်းတွင် ပံ့ပိုးကူညီရန် စိတ်အားထက်သန်သော စာရေးဆရာများနှင့် ဇာတ်လမ်းပြောဆိုသူများကို တက်ကြွစွာရှာဖွေနေပါသည်။ ကျွန်ုပ်တို့သည် လူ့အတွေ့အကြုံများ၏ ကြွယ်ဝသော ရောနှောမှုကို ဂုဏ်ပြုပါသည်၊ အထူးသဖြင့် မြန်မာယဉ်ကျေးမှု၊ အမြင်များနှင့် ကြားရသင့်သော ဇာတ်လမ်းများကို အဓိကထားပါသည်။
+ဤအကြောင်းအရာများနှင့် စပ်လျဥ်း၍ အများပြည်သူကြား လွတ်လပ် ပွင့်လင်းစွာ ဆွေးနွေး အမြင် ဖလှယ်ခြင်းဖြင့် သက်ဆိုင်ရာ အကြောင်းအရာ တခုချင်းစီအပေါ် သိရှိ နားလည်စွမ်း ပိုမို တိုးတက်လာစေရန်၊ ထိုမှတဆင့် ရေရှည် တည်တံ့ခိုင်မြဲသော ငြိမ်းချမ်းတည်ငြိမ်မှု၊ လူမှုအဝန်းအဝိုင်း တခုနှင့်တခု ကြား သဟဇာတဖြစ်မှု၊ လူမှုအဝန်းအဝိုင်းများ၏ ကြံ့ကြံ့ခံနိုင်စွမ်း သန်မာ အားကောင်းမှု စသည်တို့ကို အထောက်အကူဖြစ်စေရန် ရည်ရွယ်ပါသည်။
 
-#### **ကျွန်ုပ်တို့ရှာဖွေနေသည့်အကြောင်းအရာများ:**
-- **ကိုယ်ရေးကိုယ်တာဇာတ်လမ်းများ** - သင့်ခရီးသွားမှု၊ စိန်ခေါ်မှုများ၊ အောင်မြင်မှုများ မျှဝေပါ
-- **ယဉ်ကျေးမှုအသိအမြင်များ** - မြန်မာရိုးရာ၊ ပွဲတော်များ၊ ဓလေ့ထုံးတမ်းများ လေ့လာခြင်း
-- **လူမှုရေးဝေဖန်ချက်များ** - မြန်မာနိုင်ငံနှင့် ရွှေ့ပြောင်းနေထိုင်သူများကို ထိခိုက်သောပြဿနာများ
-- **စာပေနှင့်ကဗျာ** - မြန်မာသို့မဟုတ် အင်္ဂလိပ်ဘာသာဖြင့် မူရင်းဖန်တီးမှုများ
-- **သမိုင်းဆိုင်ရာရှုမြင်ချက်များ** - လက်ရှိကိုပုံသွင်းသော အတိတ်မှဇာတ်လမ်းများ
-- **အသိုက်အဝန်းမီးမောင်းထိုး** - နာမမသိသူရဲများနှင့် ဒေသတွင်းအစီအမံများ ဂုဏ်ပြုခြင်း
-- **အစားအစာနှင့်လူနေမှုပုံစံ** - ရိုးရာချက်နည်းများ၊ ကျန်းမာရေးအလေ့အကျင့်များ
-- **အနုပညာနှင့်ဖျော်ဖြေမှု** - သုံးသပ်ချက်များ၊ အနုပညာရှင်များ၊ ယဉ်ကျေးမှုအခမ်းအနားများ
+အတွေ့အကြုံရင့် သုတေသီများသာမက စိတ်အားထက်သန်စွာ လေ့လာနေသော လူငယ်ခေါင်းဆောင် များ၊ နိုင်ငံရေး တက်ကြွလှုပ်ရှားသူများ၊ အရပ်ဘက် လူမှုအဖွဲ့အစည်းများတွင် ပါဝင် လုပ်ဆောင်နေသူ များ၊ လူ့အခွင့်အရေးဆိုင်ရာ တက်ကြွ လှုပ်ရှားသူများ၊ မြန်မာ့အရေး စိတ်ဝင်စားသည့် လူပုဂ္ဂိုလ်များ စသဖြင့် စိတ်ဝင်စားသူအားလုံးကို ပါဝင်ရန် ဖိတ်ခေါ်ပါသည်။
 
-#### **တင်သွင်းရန်လမ်းညွှန်များ:**
-- **စာလုံးအရေအတွက်**: ၈၀၀-၂၅၀၀ လုံး
-- **ဘာသာစကား**: မြန်မာ၊ အင်္ဂလိပ်သို့မဟုတ် နှစ်ဘာသာပေါင်းစပ်ထားသော အကြောင်းအရာများ လက်ခံပါသည်
-- **ပုံစံ**: မူရင်း၊ မထုတ်ဝေရသေးသော အကြောင်းအရာများသာ
-- **လေသံ**: စစ်မှန်၊ လေးစား၊ စိတ်ဝင်စားဖွယ်
-- **သတ်မှတ်ရက်**: တစ်နှစ်ပတ်လုံး တင်သွင်းနိုင်ပါသည်
+စာမူ ပေးပို့လိုသူများအနေဖြင့် **<voices@mosaicmm.org>** သို့ ဆက်သွယ် ပေးပို့နိုင်ပါသည်။ ပေးပို့လာ သော စာမူများကို Mosaic Voices Editorial Team မှ စိစစ် ရွေးချယ်၍ လိုအပ်သလို တည်းဖြတ်မည် ဖြစ်ပြီး ဤသို့ တည်းဖြတ်သည့် လုပ်ငန်းစဥ်တွင် စာမူရှင်၏ ပါဝင်မှုကိုပါ လိုအပ်သလို ထည့်သွင်း လုပ်ဆောင်သွားမည် ဖြစ်ပါသည်။
 
-#### **သင်ရရှိမည့်အရာများ:**
-- စာရေးဆရာအမည်နှင့် မိတ်ဆက်
-- လူမှုကွန်ယက်များတွင် ရေပန်းစားအောင်ကူညီခြင်း
-- တူညီသောစိတ်ပိုင်းဆိုင်ရာရှိသော စာရေးဆရာများနှင့် ဆက်သွယ်ခြင်း
-- ကမ္ဘာ့မြန်မာအသိုက်အဝန်းသို့ ရောက်ရှိနိုင်သော အခွင့်အရေး
-- ဆက်လက်ပူးပေါင်းဆောင်ရွက်နိုင်သော ဖြစ်နိုင်ခြေ
+**စာမူဆိုင်ရာ သတ်မှတ်ချက်များ**
 
----
+- ဗမာ/မြန်မာ ဘာသာစကားဖြင့် ရေးသားထားသည့်စာမူ ဖြစ်ရပါမည်။
+- စကားပြေပုံစံဖြင့်သော်လည်းကောင်း၊ စကားပြောပုံစံဖြင့်သော်လည်းကောင်း မိမိအားသန် သလို ရေးသားနိုင်ပါသည်။ သို့သော် ဆောင်းပါးတပုဒ်ထဲတွင် စကားပြေ သို့မဟုတ် စကားပြော ပုံစံတခုကိုသာ အသုံးပြုရပါမည်။
+- ကိုယ်တိုင်ရေးစာမူ ဖြစ်ကြောင်းနှင့် မည်သည့် အွန်လိုင်း/ပုံနှိပ်/ရုပ်သံလွှင့်/အသံလွှင့် မီဒီယာ တွင်မှ ဖော်ပြဖူးခြင်းမရှိသည့် စာမူဖြစ်ကြောင်း ကိုယ်တိုင် အာမခံချက် ပါရှိရပါမည်။
+- စာမူကို Mosaic Voices တွင် ဖော်ပြရန် ရွေးချယ်ပါက Digital Media Form အသီးသီးနှင့် ပုံနှိပ်ပုံစံ အသီးသီးတွင် အသုံးပြုခွင့်၊ ပုံနှိပ်ဖြန့်ချိခွင့်၊ အခြားပုံစံများဖြင့် ထုတ်လုပ်ခွင့်ပြု ကြောင်း (ဥပမာ - ရုပ်သံ၊ အသံ၊ Infographic စသည်) သဘောတူညီချက် ပါရှိရပါမည်။
+- စာမူသည် Unicode Font စာလုံးအရွယ်အစား ၁၂ ပွိုင့််ဖြင့် Microsoft Word သို့မဟုတ် Text File တွင် ရိုက်ထားသည့်စာမူ ဖြစ်ရပါမည်။
+- စာမူသည် ပတ်ပတ်လည် Margin ၁ လက်မစီ ခြားထားသည့် A4 စာရွက် အရွယ်အစား နှစ်မျက်နှာထက် မပိုစေရပါ။
+- စာမူများအတွက် နောက်ဆုံးသတ်မှတ်ရက် မရှိဘဲ ရွေးချယ်သည့် စာမူအစဥ်အတိုင်း ဖော်ပြ သွားမည်ဖြစ်ပါသည်။
+- စာမူပေးပို့ချိန်တွင် စာမူရှင်၏ ကိုယ်ရေးအကျဥ်းကို ထည့်သွင်းပေးပို့ရမည် ဖြစ်ပါသည်။
 
-## **How to Submit | တင်သွင်းနည်း**
+**စာမူ စိစစ် ရွေးခြယ် ဖော်ပြခြင်းဆိုင်ရာ လုပ်ငန်းစဥ်**
 
-**Email**: submissions@mosaicvoice.blog
-**Subject Line**: "Blog Submission - [Your Topic]"
-**Include**: 
-- Your full article/post
-- Brief author bio (50-100 words)
-- High-resolution photo (optional)
-- Social media handles (optional)
+- စာမူကို ရွေးချယ်ခြင်း ရှိ/မရှိ ဆိုသည်ကို လက်ခံရရှိသည့်နေ့မှစ၍သီတင်းတပတ်အတွင်း ဆက်သွယ် အကြောင်းကြားပါမည်။
+- ရွေးချယ်ထားသည့် စာမူကို စိစစ် တည်းဖြတ်သည့် လုပ်ငန်းစဥ်အတွင်း စာမူရှင်နှင့် လိုအပ်သလို ချိတ်ဆက် ညှိနှိုင်း တိုင်ပင်ဆောင်ရွက်သွားမည် ဖြစ်ပါသည်။
+- နောက်ဆုံးအဆင့် စာမူ အပြီးသတ်ပြီးပါက စာမူရှင်ထံ ပေးပို့၍ အတည်ပြုချက် ရယူပြီးမှသာ ထုတ်ဝေရန် ဆက်လက် လုပ်ဆောင်သွားမည် ဖြစ်ပါသည်။
 
-**For Burmese submissions**: Please include an English title and brief summary
+**Mosaic Voices တွင် ပါဝင်ပါ။**
 
----
+**မြန်မာ့ လူမှုအဝန်းအဝိုင်းများ ခိုင်မာအားကောင်းရေး**
 
-## **Contact Us | ဆက်သွယ်ရန်**
-
-Questions? Ideas? Want to discuss a potential collaboration?
-Reach out to us at: **editor@mosaicvoice.blog**
-
-**Join us in amplifying diverse voices and sharing the stories that matter most to our community.**
-
-**ကျွန်ုပ်တို့နှင့်အတူ မတူညီသောအသံများကို ပိုမိုကျယ်ပြန့်အောင်လုပ်ကာ ကျွန်ုပ်တို့အသိုက်အဝန်းအတွက် အရေးကြီးဆုံးဇာတ်လမ်းများကို မျှဝေကြပါစို့။**
+**စွမ်းနိုင်သရွေ့ အားဖြည့်ပါ။**
