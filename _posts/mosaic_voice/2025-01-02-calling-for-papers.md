@@ -15,7 +15,7 @@ author:
   avatar_url: https://avatar.iran.liara.run/public
   biography: NA
 image:
-  path: /../../assets/img/blog/hero.png 
+  path: /../../assets/img/blog/posts/2025-01-02-calling-for-papers/callforpaper_post.jpeg
   alt: Mosaic Voices Calling for Paper 
 
 ---
