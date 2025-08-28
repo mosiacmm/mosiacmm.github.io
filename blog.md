@@ -7,5 +7,6 @@ pagination:
   enabled: true
   per_page: 3
   collection: posts
+# permalink: /
 ---
 

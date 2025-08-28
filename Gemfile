@@ -7,6 +7,7 @@ group :jekyll_plugins do
   gem "kramdown-parser-gfm", "~> 1.1"
   gem "webrick", "~> 1.9"
   gem "jekyll-sitemap"
+  gem 'jekyll-redirect-from'
 end
 
 

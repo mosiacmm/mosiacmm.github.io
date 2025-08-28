@@ -5,6 +5,9 @@ description: "We are Mosiac , Lorem ipsum Dollar Sit Amet sss"
 language: "en"
 pagination:
 enabled: false
+redirect_to:
+  - /blog
+
 testimonials:
     -   name: "Margaret Lawson"
         position: "Creative Director"
