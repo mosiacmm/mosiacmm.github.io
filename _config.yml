@@ -9,6 +9,7 @@ pagination:
   limit: 0
   sort_field: "date"
   sort_reverse: true
+url: https://demo.mosaicmm.org
 
 plugins:
   - jekyll-paginate-v2
