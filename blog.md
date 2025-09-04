@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "Mosaic Voice | Blog"
-description: "We are Mosiac , Lorem ipsum Dollar Sit Amet"
+description: "Mosaic Myanmar Blog | From diverse Perspectives to the Shared Future"
 language: "en"
 pagination:
   enabled: true

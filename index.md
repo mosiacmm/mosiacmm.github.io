@@ -1,7 +1,7 @@
 ---
 layout: index
 title: "Mosiac Myanmar "
-description: "We are Mosiac , Lorem ipsum Dollar Sit Amet sss"
+description: "Mosaic Myanmar | A society where everyone participates"
 language: "en"
 pagination:
 enabled: false
