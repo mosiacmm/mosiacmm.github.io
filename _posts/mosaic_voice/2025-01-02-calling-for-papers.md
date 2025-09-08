@@ -7,7 +7,7 @@ tags: [MosaicVoice, Blog, Calling for Papers]
 description:  စာမူများဖိတ်ခေါ်ပါသည်
 
 opengraph:
-  description: We are looking for papers from all around the word 
+  description: Mosaic Myanmar is looking for paper focus on Inclusive Future Myanmar
 
 pin: true
 author:
