@@ -31,8 +31,8 @@
         <!--? Blog Area Start-->
 
    {% assign pinned_posts = site.posts | where: "pin", true %}
-   {{paginator.posts}}
-{% assign regular_posts = paginator.posts  %} 
+   
+   {% assign regular_posts = paginator.posts  %} 
 
 
 
