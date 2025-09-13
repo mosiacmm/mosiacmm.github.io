@@ -33,6 +33,11 @@
    {% assign pinned_posts = site.posts | where: "pin", true %}
 {% assign regular_posts = paginator.posts  %} 
 
+ <script>
+      var posts = "{{ paginator.posts }}";
+      console.log("Posts:", posts);
+    </script>
+
         <section class="blog_area section-padding">
     <div class="container">
         <div class="row">
