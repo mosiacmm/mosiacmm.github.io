@@ -31,7 +31,7 @@
         <!--? Blog Area Start-->
 
    {% assign pinned_posts = site.posts | where: "pin", true %}
-{% assign regular_posts = paginator.posts | where: "pin", false %} 
+{% assign regular_posts = paginator.posts  %} 
 
         <section class="blog_area section-padding">
     <div class="container">
