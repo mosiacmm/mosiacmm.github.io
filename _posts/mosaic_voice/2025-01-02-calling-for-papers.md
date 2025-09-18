@@ -2,8 +2,8 @@
 layout: blog_details
 title:  စာမူများဖိတ်ခေါ်ခြင်း  
 date:   2025-09-08
-categories: [MosaicVoice]
-tags: [MosaicVoice, Blog, Calling for Papers]
+categories: [MosaicVoices]
+tags: [MosaicVoices, Blog, Calling for Papers]
 description:  စာမူများဖိတ်ခေါ်ပါသည် | Mosaic Myanmar is looking for paper focus on Inclusive Future Myanmar
 
 opengraph:
