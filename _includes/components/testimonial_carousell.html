@@ -6,7 +6,7 @@
         <div class="testimonial-founder">
             <div class="founder-img mb-40">
                 {% if testimonial.image and testimonial.image != "" %}
-                <img src="{{ testimonial.image }}" alt="{{ testimonial.name }}">
+                <img class="w-25 h-25" src="{{ testimonial.image }}" alt="{{ testimonial.name }}">
                 {% else %}
                 <img src="assets/img/gallery/testimonial.png" alt="{{ testimonial.name }}">
                 {% endif %}

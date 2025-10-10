@@ -2853,6 +2853,16 @@ hr {
   background-position: center center;
   background-size: cover;
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .slider-area {
+    background-image: url("");
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .slider-area {
+    background-image: url("");
+  }
+}
 .slider-area .hero__caption h1 {
   font-size: 70px;
   font-weight: 800;

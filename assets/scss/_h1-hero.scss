@@ -44,6 +44,18 @@
     background-position: center center;
     background-size: cover;
 
+
+    @media #{$md} {
+        background-image: url('');
+    }
+
+    @media #{$sm} {
+        background-image: url('');
+    }
+
+
+
+
     .hero__caption {
         h1 {
             font-size: 70px;
