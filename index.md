@@ -5,8 +5,7 @@ description: "Mosaic Myanmar | A society where everyone participates"
 language: "en"
 pagination:
 enabled: false
-redirect_to:
-  - /blog
+
 
 testimonials:
     -   name: "Margaret Lawson"
