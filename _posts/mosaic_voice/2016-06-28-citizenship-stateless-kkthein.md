@@ -4,7 +4,7 @@ title: နိုင်ငံသားဖြစ်မှုသည် နိုင
 description: jus soli လို့ ခေါ်တဲ့ birthright citizenship မူဝါဒကို ၂၀၂၅ ခုနှစ်အထိဆိုရင် ကမ္ဘာပေါ်က နိုင်ငံ ပေါင်း ၃၀ ပတ်ဝန်းကျင်မှာ ကျင့်သုံးကြပါတယ်။ ဒီမူဝါဒရဲ့  အနှစ်သာရကတော့ မိဘတွေက သူတို့ ကလေးမွေးဖြစ်သွားတဲ့ နိုင်ငံရဲ့ နိုင်ငံသား ဟုတ်သည်ဖြစ်စေ မဟုတ်သည်ဖြစ်စေ မွေးလာတဲ့ ကလေးဟာ အဲဒီ နိုင်ငံရဲ့ နိုင်ငံသား အလိုအလျောက် ဖြစ်ပါတယ်၊ ခြွင်းချက်မဲ့ပါ။ ဘယ်လောက် လူသားဆန်လိုက်ပါသလဲ။
 author:
   name : ကျော်ကျော်သိန်း
-  avatar_url: https://avatar.iran.liara.run/public
+  avatar_url: https://avatar.iran.liara.run/public/4
   biography: ကျော်ကျော်သိန်း သည် ၈၈ မျိုးဆက် နိုင်ငံရေးအကျဉ်းသားဟောင်းတစ်ဦးဖြစ်သည်။ ရုပ်သံလွှင့်သတင်းထောက် အဖြစ် ၁၇ နှစ်ကျော် လုပ်ကိုင်ခဲ့သည်။ လက်ရှိတွင် မြန်မာ့အရေးနှင့် ဆက်စပ်သည်တို့ကို လုပ်ဆောင်လျက်ရှိသလို အွန်လိုင်းမဂ္ဂဇင်း အယ်ဒီတာတစ်ဦးဖြစ်ပြီး ဆောင်းပါးများ ရေးသားလျက်ရှိသည်။
 date: 2025-09-12 
 categories: [Human Rights, Human Dignity, MosaicVoices]
@@ -13,7 +13,7 @@ pin: false
 math: true
 mermaid: true
 image:
-  path: /../../assets/img/blog/posts/2016-06-28-citizenship-stateless-kkthein/blog_hero.png
+  path: /../../assets/img/blog/posts/2016-06-28-citizenship-stateless-kkthein/kkthein_stateless_paper.png
   lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
   alt: Responsive rendering of Chirpy theme on multiple devices.
 heroimage: 
