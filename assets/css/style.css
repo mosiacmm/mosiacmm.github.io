@@ -2863,6 +2863,11 @@ hr {
     background-image: url("");
   }
 }
+@media (max-width: 575px) {
+  .slider-area {
+    background-image: url("");
+  }
+}
 .slider-area .hero__caption h1 {
   font-size: 70px;
   font-weight: 800;

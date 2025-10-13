@@ -53,8 +53,9 @@
         background-image: url('');
     }
 
-
-
+    @media #{$xs} {
+        background-image: url('');
+    }
 
     .hero__caption {
         h1 {
