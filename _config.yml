@@ -25,6 +25,6 @@ defaults:
       sitemap: false
 
   - scope:
-      path: "*/demo.mosaiamm.org/*" # Affects files in the projects/ folder
+      path: "*demo.mosaiamm.org/*" # Affects files in the projects/ folder
     values:
       sitemap: false
