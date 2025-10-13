@@ -16,3 +16,15 @@ plugins:
   - jekyll-watch
   - jekyll-sitemap
   - jekyll-redirect-from
+
+# In _config.yml
+defaults:
+  - scope:
+      path: "*/about/*" # Affects files in the projects/ folder
+    values:
+      sitemap: false
+
+  - scope:
+      path: "*/demo.mosaiamm.org/*" # Affects files in the projects/ folder
+    values:
+      sitemap: false
