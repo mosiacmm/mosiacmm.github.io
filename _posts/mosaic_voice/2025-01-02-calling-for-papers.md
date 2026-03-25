@@ -12,7 +12,7 @@ opengraph:
 pin: true
 author:
   name : Mosaic Myanmar
-  avatar_url: https://avatar.iran.liara.run/public
+  avatar_url: https://ui-avatars.com/api/?name=MM
   biography: NA
 image:
   path: /../../assets/img/blog/posts/2025-01-02-calling-for-papers/callforpaper_post.jpeg

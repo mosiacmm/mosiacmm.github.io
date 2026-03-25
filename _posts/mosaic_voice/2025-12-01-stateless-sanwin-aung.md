@@ -4,7 +4,7 @@ title: နိုင်ငံမဲ့သူ၊ နိုင်ငံမဲ့ဖ
 description: နိုင်ငံတစ်နိုင်ငံရဲ့ နိုင်ငံသားအဖြစ် အသိအမှတ်အပြုမခံရသူတွေ၊ နိုင်ငံကူးလက်မှတ် မရှိသူ တွေ၊ တရားဝင်နိုင်ငံသားအခွင့်အရေးများ ဆုံးရှုံးနေရသူတွေကို နိုင်ငံမဲ့သူများ (Stateless People) လို့ သတ်မှတ်ပါတယ်။
 author:
   name : ဆဏ်းဝင်းအောင်
-  avatar_url: https://avatar.iran.liara.run/public/26
+  avatar_url: https://ui-avatars.com/api/?name=SWA
   biography: ဆဏ်းဝင်းအောင်သည် လူမှုသုတေသနဆိုင်ရာ ဆောင်းပါးများကို အခါအားလျော်စွာ ရေးသားနေသူတစ်ဦး ဖြစ်ပါသည်။
 date: 2025-12-01 
 categories: [statelessness, citizenship, MosaicVoices]
