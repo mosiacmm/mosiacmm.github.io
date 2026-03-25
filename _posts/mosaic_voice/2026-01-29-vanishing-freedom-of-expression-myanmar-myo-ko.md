@@ -7,6 +7,7 @@ author:
   name : မျိုးကို
   avatar_url: https://ui-avatars.com/api/?name=MK
   biography: လူနည်းစုအရေးတက်ကြွလှုပ်ရှားသူတဦးဖြစ်ပြီး လူနည်းစုအခွင့်အရေး၊ ဘာသာရေးပဋိပက္ခများ၊ အမုန်းစကားများနှင့်ပတ်သက်ပြီး သုတေသန လုပ်ဆောင်နေသူတဦးဖြစ်သည်။ လူ့အခွင့်အရေး၊ ဒီမိုကရေဖော်ဆောင်ရေးနှင့် ငြိမ်းချမ်းရေး နှင့်ပတ်သက်ပြီး အထူးပြုလေ့လာနေသူတဦးဖြစ်သည်။
+  
 date: 2026-01-29
 categories: [vanishing,freedom,Freedom of speech,Decline,Myanmar,MosaicVoices]
 tags: [MosaicVoices, Blog]
