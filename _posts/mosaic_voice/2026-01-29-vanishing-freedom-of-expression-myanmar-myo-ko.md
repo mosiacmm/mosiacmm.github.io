@@ -2,6 +2,7 @@
 layout: blog_details
 title: မြန်မာနိုင်ငံအတွင်း လွတ်လပ်စွာ ထုတ်ဖော်ပြောဆိုခွင့် ပျက်သုဉ်းလာခြင်း
 description: လူလူတိုင်းဟာ အနှောင့်အယှက်ကင်းကင်းနဲ့ မိမိတို့ရဲ့ထင်မြင်ယူဆချက်တွေကို လွတ်လပ်စွာ ထင်မြင်ယူဆခွင့်ရှိတယ်လို့ ပါဝင်တဲ့ UDHR (Universal Declaration of Human Rights) ဟာ ဥပဒေအရ တာဝန်ခံမှုမရှိပေမဲ့လည်း နိုင်ငံတကာစာချုပ်များအတွက် အခြေခံစာတမ်းတစ်ခု ဖြစ်ပါတယ်။ ၁၉၄၇ ခုနှစ်၊ ၁၉၇၄ ခုနှစ်နဲ့ ၂၀၀၈ ခုနှစ်တို့မှာ ရေးဆွဲခဲ့တဲ့ မြန်မာနိုင်ငံရဲ့ ဖွဲ့စည်းပုံအခြေခံဥပဒေတွေမှာ လွတ်လပ်စွာထုတ်ဖော်ပြောဆိုခွင့်ကို အခြေခံရပိုင်ခွင့်အနေနဲ့ အသိအမှတ်ပြုထားပါတယ်။
+
 author:
   name : မျိုးကို
   avatar_url: https://ui-avatars.com/api/?name=MK
@@ -12,7 +13,7 @@ tags: [MosaicVoices, Blog]
 pin: false
 math: true
 mermaid: true
-image:
+image: 
   path: /../../assets/img/blog/posts/2026-01-29-vanishing-freedom-of-expression-myanmar-myo-ko/_vanishing_freedom_of_expression.jpeg
   lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
   alt: vanishing_freedom_of_expression
