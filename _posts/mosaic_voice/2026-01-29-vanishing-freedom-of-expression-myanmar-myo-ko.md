@@ -48,12 +48,19 @@ heroimage:
 ICCPR နဲ့ UDHR တို့မှ အကာအကွယ်ပေးထားတဲ့ လွတ်လပ်စွာထုတ်ဖော်ပြောဆိုခွင့်ကို စစ်တပ်ဟာ သတင်းထောက်တွေအပါအဝင် ပြည်သူတွေကို ဖမ်းဆီးခြင်း၊ ဆင်ဆာဖြတ်တောက်ခြင်းနဲ့ ပြစ်ဒဏ်ကြီးလေးတဲ့ ဥပဒေတွေကို ပြဌာန်းပြီး လွတ်လပ်စွာထုတ်ဖော်ပြောဆိုခွင့်ကို ပြင်းပြင်းထန်ထန် ကန့်သတ်လျက်ရှိနေပါတယ်။ 
 အချုပ်ပြောရမယ်ဆိုရင် မြန်မာနိုင်ငံမှာ လွတ်လပ်စွာထုတ်ဖော်ပြောဆိုခွင့်နဲ့ ပတ်သက်ပြီး အကြပ်အတည်းဟာ ပိုမိုဆိုးရွားလာပါတယ်။ အာဏာသိမ်းစစ်တပ်ဟာ သူ့တို့အပေါ် ဆန့်ကျင်တဲ့အရေးအသားတွေ ရေးသားသူတွေကို အပြစ်ပေးရုံသာမက သတင်းအချက်အလက်ရရှိမှုများကို ထိန်းချုပ်ခြင်း၊ မီဒီယာများကို ဖမ်းဆီးခြင်း၊ အရပ်ဘက်လူ့အဖွဲ့အစည်းများကို ကန့်သတ်ခြင်းတို့ကို ဆောင်ရွက်နေပါတယ်၊၊ အာဏာသိမ်းစစ်တပ်ဟာ လူ့အခွင့်အရေးများကို အလွန်အကျွံချိုးဖောက်နေပြီး အခြေခံလူ့အခွင့်အရေးဖြစ်တဲ့ လွတ်လပ်စွာ ထုတ်ဖော်ပြောဆိုခွင့်၊ လွတ်လပ်စွာသတင်းရယူခွင့်တို့ကို ကန့်သတ်ထားမှုဟာလည်း ပိုမိုဆိုးဝါးလျက် ရှိနေပါတော့တယ်။
  
-References
-(ICNL), I. C.-f.-P. (2025). Journalist Detentions in Myanmar. 
-Myanmar, H. R. (2025). Analysing 4 years of journalist detentions in post-coup Myanmar. 
-Project, M. I. (2025). Myanmar Digital Coup Quarterly: May 2025 - July 2025. 
-Watch, H. R. (2021). Myanmar: Junta Escalates Media Crackdown. 
-Watch, H. R. (2023). "Our numbers are dwindling”: Myanmar’s post-coup crackdown on lawyers. 
-Myanmar’s military rulers enact cybersecurity law with wide-ranging censorship provisions reported by AP News
-Universal Declaration of Human Rights (1948)
+## References
+
+- International Center for Not-for-Profit Law (ICNL). (2025). *Journalist Detentions in Myanmar.*
+
+- Human Rights Myanmar. (2025). *Analysing 4 Years of Journalist Detentions in Post-Coup Myanmar.*
+
+- Myanmar Internet Project. (2025). *Myanmar Digital Coup Quarterly: May 2025 – July 2025.*
+
+- Human Rights Watch. (2021). *Myanmar: Junta Escalates Media Crackdown.*
+
+- Human Rights Watch. (2023). *“Our Numbers Are Dwindling”: Myanmar’s Post-Coup Crackdown on Lawyers.*
+
+- AP News. (n.d.). *Myanmar’s Military Rulers Enact Cybersecurity Law with Wide-Ranging Censorship Provisions.*
+
+- United Nations. (1948). *Universal Declaration of Human Rights.*
 ---
