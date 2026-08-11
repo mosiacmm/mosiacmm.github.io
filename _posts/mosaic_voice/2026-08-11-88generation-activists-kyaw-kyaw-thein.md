@@ -6,7 +6,7 @@ author:
   name : ကျော်ကျော်သိန်း 
   avatar_url: https://ui-avatars.com/api/?name=AM
   biography: ကျော်ကျော်သိန်း သည် ၈၈ မျိုးဆက် နိုင်ငံရေးအကျဉ်းသားဟောင်းတစ်ဦးဖြစ်သည်။ ရုပ်သံလွှင့်သတင်းထောက် အဖြစ် ၁၇ နှစ်ကျော် လုပ်ကိုင်ခဲ့သည်။ လက်ရှိတွင် မြန်မာ့အရေးနှင့် ဆက်စပ်သည်တို့ကို လုပ်ဆောင်လျက်ရှိသလို အွန်လိုင်းမဂ္ဂဇင်း အယ်ဒီတာတစ်ဦးဖြစ်ပြီး ဆောင်းပါးများ ရေးသားလျက်ရှိသည်။	 
-date: 2026-08-11
+date: 2026-08-08
 categories: [88generation,National,Country,activists,MosaicVoices]
 tags: [MosaicVoices, Blog]
 pin: false
